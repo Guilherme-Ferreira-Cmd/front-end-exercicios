@@ -1,9 +1,9 @@
-const botao = document.getElementById("botao-principal");
-
+const btnadicionar= document.getElementById('btnadicionar');
 const input = document.getElementById('nome');
+const lista = document.getElementById('artistas');
 
-botao.addEventListener('click' , exibirValordoCampo);
+btnadicionar.addEventListener('click', alertaDeClique);
 
-function exibirValordoCampo () {
-    alert(input.value);
+function alertaDeClique() {
+	alert('Botão principal foi clicado!');
 }
